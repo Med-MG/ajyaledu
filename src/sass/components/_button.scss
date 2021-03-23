@@ -1,0 +1,333 @@
+.btn {
+
+    &,
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 1rem;
+        transition: all .2s;
+        position: relative;
+        cursor: pointer;
+        border: none;
+    }
+
+    &__arrow-tip {
+        width: 1.3rem;
+        margin-left: 2rem;
+    }
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
+
+    &:active,
+    &:focus {
+        outline: none;
+        transform: translateY(-1px);
+        box-shadow: 0 .5rem 1rem rgba($color-black, .2);
+    }
+
+    &--blue {
+        background-color: $secondary-variant;
+        color: $color-white;
+       
+        &::after {
+            background-color: $secondary-variant;
+        }
+    }
+
+    &--header {
+        background-color: $design-yellow;
+        color: $color-white;
+        padding: 2rem 8rem;
+        font-size: 2rem;
+        font-weight: 600;
+        z-index: 122;
+        &::after {
+            background-color: $design-yellow;
+        }
+    }
+
+    &--form{
+        background-color: $design-yellow;
+        color: $color-white;
+        padding: 2rem 0;
+        font-size: 2rem;
+        font-weight: 600;
+        width: 60%;
+        &::after {
+            background-color: $design-yellow;
+        }
+        @include custom_media(1048){
+            width: 72%;
+        }
+    }
+    &--carac {
+        background-color: $design-yellow;
+        color: $color-white;
+        padding: 2rem 8rem;
+        font-size: 2rem;
+        font-weight: 600;
+        /* margin-top: 3rem; */
+        top: 4rem;
+        position: relative;
+        right: 12rem;
+        position: relative;
+        @include responsive(tab-land) { // width < 1200?
+            right: 0;
+        }
+
+        &::after {
+            background-color: $design-yellow;
+        }
+    }
+    &--about {
+        color: $secondary;
+        padding: 2rem 8rem;
+        border: 2px solid $secondary !important;
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 1rem 2rem;
+        top: 4rem;
+        position: relative;
+        background: white;
+
+    }
+
+    &--popup{
+        background-color: $design-yellow;
+        color: $color-white;
+        padding: 2rem 0;
+        font-weight: 600;
+        width: 30%;
+        font-size: 1.3rem;
+        @include custom_media(640) {
+            font-size: 1rem;
+            width: 100%;
+        }
+        &::after {
+            background-color: $design-yellow;
+        }
+        @include custom_media(1048){
+            width: 72%;
+        }
+    }
+
+    &--tertiary {
+        background-color: $primary;
+        color: $color-white;
+        padding: 2rem 1rem;
+        font-size: 2rem;
+        &::after {
+            background-color: $primary;
+        }
+    }
+
+    &--nav {
+        background-color: $secondary-variant;
+        color: $color-white;
+        font-size: 1.9rem;
+        padding: 1.5rem 4rem;
+        box-shadow: 0px 15px 30px rgba(150, 6, 49, 0.16);
+        @include custom_media(1102){
+            font-size: 1.7rem;
+            padding: 1rem 3rem;
+        }
+        &::after {
+            background-color: $secondary-variant;
+        }
+    }
+
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 1rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+
+    &__leaning-center{
+        background-color: $tertiary;
+        font-size: 2rem !important;
+        margin: 2rem 0;
+    }
+
+    &__programm{
+        background-color: $tertiary-variant;
+        color: $color-white;
+        // padding: 2.5rem 4rem !important;
+        height: max-content;
+        margin: 0 auto;
+       
+       
+        &::after {
+            background-color: $tertiary-variant;
+        }
+    }
+}
+
+
+.btn-text {
+    &,
+    &:link,
+    &:visited {
+        font-size: 2rem;
+        color: $primary;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 2.6px solid $primary;
+        padding: 3px;
+        transition: all .2s;
+    }
+
+    &:hover {
+        background-color: $primary;
+        color: $color-white;
+        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+        transform: translateY(0);
+    }
+
+    &__learnig-center{
+        width: max-content;
+    }
+
+    &__lrn-webinar{
+        color: $color-white !important;
+        margin: 4rem 0;
+        border-bottom: 2.6px solid $color-white !important;
+        &:hover{
+            background-color: $color-white ;
+            color: $primary !important;
+        }
+
+    }
+}
+
+.btn-subscribe {
+
+    &,
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.2rem 0 0 0;
+        display: inline-block;
+        border-radius: 1rem;
+        transition: all .2s;
+        position: relative;
+        left: -2.5rem;
+        font-size: 1.6rem;
+        @include responsive(tab-port){
+            top: -1px;
+        }
+
+
+        //Change for the <button> element
+        border: none;
+        cursor: pointer;
+        background-color: $secondary-variant;
+        color: white;
+        height: 5rem;
+        width: 13rem;
+        text-align: center;
+    }
+}
+
+
+
+.button-whatsapp {
+	background-color: #25D366 !important;
+    color: white !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 2.4rem;
+    padding: 1.4rem 7rem;
+    width: 45%;
+    text-align: center;
+    //Change for the <button> element
+    border: none;
+    cursor: pointer;
+	&:hover {
+		background: lighten(#25D366, 1%);
+	}
+	&.button-shadow {
+
+		&::before {
+			box-shadow: 0 8px 16px rgba(#25D366, .25);
+			mix-blend-mode: normal;
+		}
+
+		&:hover {
+
+			&::before {
+				box-shadow: 0 8px 16px rgba(#25D366, .35);
+			}
+		}
+	}
+
+	&__img{
+        position: absolute;
+        top: 50%;
+        transform: translate(-373%,-55%);
+        width: 2.5rem;
+        left: 48%;
+	}
+
+}
+
+body > div.buy-now-sticky > a.btn.btn--tertiary.button-sticky.b-center{
+	width: 45%;
+	margin: 1rem auto;
+    display: block;
+    text-align: center;
+	&:not(:last-child){
+		margin-right: 1rem;
+	}
+	position: relative;
+
+}
+
+.buy-now-sticky {
+	padding: .6rem 4rem;
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	z-index: 12;
+	display: none;
+    @include custom_media(750){
+        display: flex;
+    }
+    @include custom_media(640) {
+       padding: .6rem 1.5rem;
+    }
+}
+
+
+
+
+.button-block {
+	display: flex;
+}
