@@ -147,6 +147,9 @@
         @include responsive(tab-port){
             background-color: white;
             color:#4C5267;
+            font-size: 2rem;
+            padding: 1.5rem 4rem;
+            font-weight: 600;
             &::after {
                 background-color: white;
             }
