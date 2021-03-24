@@ -2,22 +2,22 @@
 $color-white: #fff;
 $color-black: #000;
 $color-lighter-black: hsl(225, 86%, 14%);
-$primary-title: #2C234D;
+$primary-title: #4D5466;
 
 $primary: #F95E5E;
 $primary-variant: #9CD7F4;
 
 $secondary: #F88081;
+$secondary-variant:#FF848B;
 
-$secondary-variant:#F56E96;
-
-$tertiary: #3147FF;
-$tertiary-variant: #7403FF;
+$tertiary: #F68F0E;
+$tertiary-variant: #FBE2DE;
 
 $footer: #FCFAFB;
 
-$description-color: #707B8E;
+$description-color: #4D5466;
 
+$dark-blue: #000D83;
 
 $design-yellow: #FFC107;
 $design-purple: #676099;
@@ -59,6 +59,8 @@ $Second-shadow: 0 1rem 3.5rem 0 rgba($color-black,.1);
 $third-shadow: 0 .6rem 1.7rem 0 rgba($shadow-color, .3);
 $fourth-shadow: 0 3px 5px 0 rgba(47, 85, 212, 0.3);
 $default-transition:  all 0.5s ease;
+$btn-shadow: 1px 4px 25px rgba(249,94,94,.2);
+$design-shadow: -9px 9px 19px rgba(21, 87, 134, 0.08);
 
 
 

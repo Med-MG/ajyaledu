@@ -35,6 +35,50 @@
         box-shadow: 0 .5rem 1rem rgba($color-black, .2);
     }
 
+    &--apply {
+        background-color: $primary;
+        color: $color-white;
+        font-size: 1.9rem;
+       padding: 1rem 4rem;
+       box-shadow: $btn-shadow;
+        &::after {
+            background-color: $primary;
+        }
+    }
+    &--video {
+        background-color: $color-white;
+        font-size: 1.9rem;
+        box-shadow: $btn-shadow;
+        width: 5rem;
+        height: 5rem;
+        &, &:link, &:visited{
+            border-radius: 50%;
+        }
+        &:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 1rem 2rem rgba($color-black, .2);
+    
+            &::after {
+                transform: scaleX(1.4) scaleY(1.6);
+                opacity: 0;
+                background-color: $color-white;
+            }
+        }
+        &::before{
+            content: "";
+            z-index: 4;
+            width: 0; 
+            height: 0; 
+            border-top: .7rem solid transparent;
+            border-bottom: .7rem solid transparent; 
+            border-right:1rem solid $secondary-variant; 
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
     &--blue {
         background-color: $secondary-variant;
         color: $color-white;
@@ -136,7 +180,7 @@
         color: $color-white;
         font-size: 1.9rem;
         padding: 1rem 4rem;
-        box-shadow: 1px 13px 35px rgba(249, 94, 94, 0.3);
+        box-shadow: $btn-shadow;
         @include custom_media(1102){
             font-size: 1.7rem;
             padding: 1rem 3rem;
