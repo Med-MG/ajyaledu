@@ -2,6 +2,7 @@
     padding: 1rem 3rem;
     margin-top: 2rem;
     direction: rtl;
+    overflow: hidden;
     &__container{
         max-width: 120rem;
         margin: 5rem auto;
@@ -25,6 +26,9 @@
             @include videoratio(40rem);
             position: relative;
             border-radius: 2.3rem;
+            @include responsive(phone-1){
+                @include videoratio(47rem);
+            }
         }
         &-btn{
             position: absolute;
@@ -55,7 +59,9 @@
     }
 
     &__ajyal{
-
+        @include responsive(phone){
+            text-align: center;
+        }
     }
     &__heading{
         position: relative;
