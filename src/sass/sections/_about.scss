@@ -1,0 +1,103 @@
+.about{
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    direction: rtl;
+    &__container{
+        max-width: 120rem;
+        margin: 5rem auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        @include custom_media(700){
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 4rem;
+            justify-items: center;
+        }
+    }
+    &__video{
+        @include custom_media(700){
+            order: 2;
+        }
+        &-container{        
+            background: url('../images/thumbnail.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            @include videoratio(40rem);
+            position: relative;
+            border-radius: 2.3rem;
+        }
+        &-btn{
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%, -50%);
+        }
+        &-UI{
+            position: absolute;
+            border-radius: 2rem;
+            z-index: -1;
+            &--1{
+                background-color: #F88081;
+                width: 13rem;
+                height: 11rem;
+
+                top: -2rem;
+                left: -2rem;
+            }
+            &--2{
+                background-color: #F3AC50;
+                width: 16rem;
+                height: 12rem;
+                bottom: -1.6rem;
+                right: -1.6rem;
+            }
+        }
+    }
+
+    &__ajyal{
+
+    }
+    &__heading{
+        position: relative;
+        @include responsive(phone){
+            text-align: center;
+        }
+        &-title{
+           @include main-title;
+           margin-bottom: 3rem;
+           &--variation{
+               color: $tertiary-variant;
+           }
+        }
+        &-description{
+            @include description-font;
+           margin-bottom: 6rem;
+           line-height: 1.7;
+
+        }
+        &-round{
+            border-radius: 50%;
+            background-color: $tertiary-sec-variant;
+            position: absolute;
+            &--one{
+                width: 8rem;
+                height: 8rem;
+                top: 0;
+                z-index: -1;
+                @include responsive(phone){
+                    width: 9rem;
+                    height: 9rem;
+                    top: -3px;
+                    right: 23px;}
+            }
+            &--two{
+                width: 2.5rem;
+                height: 2.5rem;
+                left: 0;
+                bottom: -4rem;
+                
+            }
+        }
+    }
+
+}
