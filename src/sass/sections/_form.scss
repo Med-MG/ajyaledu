@@ -60,6 +60,9 @@
             border: 1px solid #C4C4C4;
             border-radius: .6rem;
             height: max-content;
+            @include responsive(iphone-1){
+                padding: 1rem;
+            }
             &--name{}
             &--address{}
             &--phone{}
