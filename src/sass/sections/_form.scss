@@ -51,6 +51,9 @@
         grid-template-rows: repeat(3, 1fr);
         grid-gap: 1.5rem;
         margin-top: 2rem;
+        @include responsive(iphone){
+            width: 95%;
+        }
         &-input{
             
             padding: 1rem 2rem;
@@ -60,7 +63,7 @@
             border: 1px solid #C4C4C4;
             border-radius: .6rem;
             height: max-content;
-            @include responsive(iphone-1){
+            @include responsive(iphone){
                 padding: 1rem;
             }
             &--name{}
