@@ -12,8 +12,9 @@
 
 
 @mixin subtitle-font {
-    font-size: 2rem;
-    color: $description-color;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: $secondary;
 }
 
 @mixin sections-title {
