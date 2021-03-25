@@ -1,16 +1,21 @@
 .footer{
+    padding: 0rem 3rem;
+    overflow: hidden;
     background: $footer;
-    padding: 10rem 15rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    @include custom_media(826){
-        padding: 10rem 8rem;
+    &__container{
+        max-width: 120rem;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        direction: rtl;
+        padding-top: 4rem;
+        @include custom_media(734){
+            grid-template-columns: none;
+            grid-template-rows: 1fr 19rem;
+            text-align: center;
+        }
     }
-    @include custom_media(734){
-        padding: 10rem 6rem;
-        grid-template-columns: none;
-        grid-template-rows: 1fr 19rem;
-    }
+
     &__about{
         margin-bottom: 6rem;
         &-logo{
@@ -18,15 +23,22 @@
             margin-bottom: 4rem;
         }
         &-description{
-            @include subtitle-font;
+            @include description-font;
             width: 60%;
             margin-bottom: 4rem;
+            @include custom_media(734){
+                margin-right: auto;
+                margin-left: auto;
+            }
         }
-        // &-form{}
+        &-form{
+            position: relative;
+        }
         &-newsletter{
             width: 40%;
             font-size: 1.5rem;
             font-weight: 600;
+            font-family: 'Cairo' sans-serif;
             padding: 1.7rem 2rem;
             width: 55%;
             border: 1px solid $description-color;
@@ -34,6 +46,7 @@
             color:  $primary-title;
             box-shadow: $default-shadow;
             font-weight: 400;
+           
             &:focus{
              border: 1px solid $primary;
              & ~ .footer__about-submit {
@@ -54,13 +67,17 @@
         &-submit{
             background: $secondary;
             color: #ffffff;
-            padding: 1.7rem 2rem 1.6rem;
+            padding: 2.4rem 2rem 1.6rem;
             font-size: 1.5rem;
-            border-top-right-radius: .6rem;
-            border-bottom-right-radius: .6rem;
-            margin-left: -1rem;
+            border-top-left-radius: .6rem;
+            border-bottom-left-radius: .6rem;
+            position: absolute;
+            left: 45%;
+            @include custom_media(734){
+                left: 22%;
+            }
             @include responsive(iphone){
-                padding: 1.9rem 2rem 1.8rem 2rem;
+                padding: 2.3rem 2rem 1.8rem;
             }
         }
     }
@@ -93,7 +110,7 @@
 
 .subfooter{
     background: $footer;
-    padding: 3rem 15rem;
+    padding: 3rem;
     color: $description-color;
     font-size: 2rem;
     border-top: 1px solid $light-gray;
@@ -106,11 +123,14 @@
     }
 
     &__container{
+        max-width: 120rem;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         @include responsive(iphone){
             flex-direction: column;
             align-items: center;
+            text-align: center;
         }
         &-social{
             display: flex;
