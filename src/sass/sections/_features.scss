@@ -21,7 +21,7 @@
         grid-template-columns: repeat(2, 1fr);
         @include custom_media(700){
             grid-template-columns: 1fr;
-            grid-template-rows: 2fr 50rem;
+            grid-template-rows: 2fr 60rem;
             grid-gap: 4rem;
             justify-items: center;
         }
@@ -36,8 +36,10 @@
             background: url('../images/student.jpg');
             background-repeat: no-repeat;
             background-size: cover;
-            width: 40rem;
-            height: 41rem;
+            // width: 40rem;
+            // height: 41rem;
+            width: 45rem;
+            height: 50rem;
             background-position: -7.5rem 0;
             border-top-right-radius: 4.9rem;
             border-bottom-left-radius: 4.9rem;

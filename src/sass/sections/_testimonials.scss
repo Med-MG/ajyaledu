@@ -1,0 +1,118 @@
+.testimonials {
+    padding: 0rem 5rem;
+    overflow: hidden;
+    &__heading{
+        margin: 0 auto;
+        max-width: max-content;
+        text-align: center
+    }
+    &__title{
+        @include main-title;
+    }
+    &__subtitle{
+        @include subtitle-font;
+        margin-top: 1.5rem;
+    }
+    &__testimonylist{
+        max-width: 120rem;
+        margin: 5rem auto;
+    }
+    &__testimony{
+        position: relative;
+        background: #FFFFFF;
+        box-shadow: 0px 13px 51px rgba(249, 94, 94, 0.1);
+        border-radius: 5.4rem;
+        padding: 4rem;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 1.5rem;
+        @include custom_media(700){
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        &-video{
+            overflow: hidden;
+            object-fit: cover;
+            width: 42rem;
+            height: 41rem;        
+            border-radius: 5rem;
+            position: relative;
+            @include custom_media(700){
+                justify-self: center;
+                width: 90%;
+            }
+            &-image{
+                width: 100%;
+                filter: blur(15px);
+
+            }
+            .btn--testimony{
+                z-index: 5;
+                @include abs_centering;
+                
+            }
+        }
+        &-article{
+            text-align: center;
+            align-self: center;
+            padding: 0 2.5rem;
+            &-icon{
+                width: 4.5rem;
+            }
+            &-text{
+                max-width: 50rem;
+                @include description-font;
+                font-weight: 500;
+                margin: 3rem auto;
+            }
+            &-name{
+                font-size: 2rem;
+                color: $secondary;
+            }
+            &-sub{
+                font-size: 1.5rem;
+                color: $description-color;
+                font-weight: 600;
+            }
+        }
+    }
+    
+    &__navbtn{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        border: none;
+        font-size: 4.5rem;
+        font-weight: 800;
+        padding-bottom: 1rem;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: $slide-slow;
+        &:hover {
+            box-shadow: 0 1rem 2rem rgba($color-black, .2);
+        }
+        &:active,
+        &:focus {
+            outline: none;
+            transform: translateY(-49%);
+            box-shadow: 0 .5rem 1rem rgba($color-black, .2);
+        }
+        &--next{
+            background-color: $secondary;
+            color: #fff;
+            right: -4rem;
+            &:hover{
+                background-color: $secondary-variant;
+            }
+        }
+        &--previous{
+            color: $secondary;
+            background-color: #fff;
+            left: -4rem;
+            &:hover{
+                background-color: $color-grey-light-1;
+            }
+        }
+    }
+}
