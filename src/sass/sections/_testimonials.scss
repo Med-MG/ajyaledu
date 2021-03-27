@@ -130,6 +130,7 @@
             @include responsive(iphone){
                 left: 38%;
                 right: unset;
+                top: 29%;
             }
             &:hover {
                 background-color: $secondary-variant;
@@ -141,7 +142,10 @@
             background-color: #fff;
             left: 0;
             top: 50%;
-
+                @include responsive(iphone){
+                    left: -16px;
+                    top: 29%;
+                }
             &:hover {
                 background-color: $color-grey-light-1;
             }
