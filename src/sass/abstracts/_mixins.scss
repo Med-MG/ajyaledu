@@ -64,19 +64,6 @@
 }
 
 
-@mixin pages_header_1 {
-        background-image: url(../images/bg-heroPages1.png);
-        position: relative;
-        background-size: cover;
-        background-repeat: round;
-        height: 55vh;
-        @include responsive(phone){
-            height: 40vh;
-        }
-        @include responsive(phone-1){
-            height: 35vh;
-        }
-}
 
 
 // 16:9 video ratio

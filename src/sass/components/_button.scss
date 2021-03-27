@@ -372,6 +372,7 @@ body > div.buy-now-sticky > a.btn.btn--tertiary.button-sticky.b-center{
 	display: none;
     @include custom_media(750){
         display: flex;
+        justify-content: space-around;
     }
     @include custom_media(640) {
        padding: .6rem 1.5rem;

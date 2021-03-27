@@ -7,30 +7,26 @@
 
    
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
-    <link rel="icon" type="image/png" href="images/favicon.png"/>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <!-- Add the new slick-theme.css if you want the default styling -->
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="icon" type="image/png" href="dist/images/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="dist/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="dist/slick/slick-theme.css"/>
 
     <!-- onscroll animation library -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- usefull utility classes -->
-    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="dist/css/util.css">
     <!-- our own css -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="dist/css/styles.css" />
 
-    <title>ajyaledu</title>  
+    <title>Ajyaledu</title>  
   </head>
   <body>
   
 <section class="navigation"  data-aos="fade-down">
     <nav class="container">
         <a href="" class="navigation__logolink">
-            <img src="images/logo.png" alt="logo" class="navigation__logoimg">
+            <img src="dist/images/logo.png" alt="logo" class="navigation__logoimg">
         </a>
         <input type="checkbox" id="navigation__humberger-btn" class="navigation__humberger-btn">
         <label for="navigation__humberger-btn" class="navigation__humberger-icon">
@@ -38,19 +34,19 @@
         </label>
         <ul class="navigation__menu list-unstyled">
             <li class="navigation__menu-item">
-                <a href="#apply__form" class="btn btn--nav">التسجيل</a>
+                <a href="#buy__form" class="btn btn--nav">التسجيل</a>
             </li>
             <li class="navigation__menu-item">
-                <a href="#testimonials" class="navigation__menu-item-link">الشهادات</a>
+                <a href="#" class="navigation__menu-item-link">الشهادات</a>
             </li>            
             <li class="navigation__menu-item">
-                <a href="#services" class="navigation__menu-item-link">خدمات</a>
+                <a href="#aboutsection" class="navigation__menu-item-link">خدمات</a>
             </li>            
             <li class="navigation__menu-item">
-                <a href="#about" class="navigation__menu-item-link">معلومات عنا</a>
+                <a href="#features" class="navigation__menu-item-link">معلومات عنا</a>
             </li>            
             <li class="navigation__menu-item">
-                <a href="#" class="navigation__menu-item-link">الرئيسية</a>
+                <a href="#testimonials" class="navigation__menu-item-link">الرئيسية</a>
             </li>
         </ul>
         
@@ -63,12 +59,12 @@
             <div class="header__design-imgcontainer">
                 <div class="header__design-stats-container">
                     <div class="header__design-stats">
-                         <img src="images/checkIc.svg" alt="check icon" class="header__design-stats--icon">
+                         <img src="dist/images/checkIc.svg" alt="check icon" class="header__design-stats--icon">
                          <div class="header__design-stats-heading">
                              <p class="header__design-stats--text">نسبة الولوج</p>
                              <h3 class="header__design-stats--num"> <span>%85</span> أكتر من</h3>
                          </div>
-                         <img src="images/stats.svg" alt="" class="header__design-stats--image">
+                         <img src="dist/images/stats.svg" alt="" class="header__design-stats--image">
                      </div> 
                  </div>
             </div>
@@ -77,7 +73,7 @@
                     <h3 class="header__design-students--num">110K</h3>
                     <p class="header__design-students--text">الطلاب المغاربة</p>  
                 </div>
-                <img src="images/eduIcon.svg" alt="" class="header__design-students--icon">
+                <img src="dist/images/eduIcon.svg" alt="" class="header__design-students--icon">
             </div>
            
         </div>
@@ -89,9 +85,9 @@
                    وماشي غير الدراسة غادي نوفرو ليك معاها منحة كاملة لكتوفر ليك الدراسة و السكن فابور و إحتمالية تاخد <b>راتب كل شهر  </b></p>
             </div>
             <div class="header__heading-action">
-                <a href="#apply__form" class="btn btn--apply">بادر بالتسجيل</a>
+                <a href="#applyform" class="btn btn--apply">بادر بالتسجيل</a>
                 <div class="header__heading-action-video">
-                    <a href="#about" class="btn btn--video"></a>
+                    <a href="/" class="btn btn--video"></a>
                     <p class="header__heading-action-video--text">شاهد الفيديو</p>
                 </div>
             </div>
@@ -99,7 +95,7 @@
         </div>
     </div>
 </section>
-<section class="about" id="about">
+<section class="about">
     <div class="about__container">
     <div class="about__video" data-aos="fade-up-right">
         <div class="about__video-container">
@@ -128,14 +124,14 @@
             <div class="about__heading-round about__heading-round--one"></div>
             <div class="about__heading-round about__heading-round--two"></div>
         </div>
-        <a href="#apply__form" class="btn-text btn-text--about">بادر بالتسجيل&nbsp;&nbsp;&larr;</a>
+        <a href="/" class="btn-text btn-text--about">بادر بالتسجيل&nbsp;&nbsp;&larr;</a>
     </div>
     </div>
 
 </section>
 
  
-<section class="services" id="services">
+<section class="services">
     <div class="services__heading"  data-aos="fade-down">
         <h1 class="services__title">كيف سأبدأ الدراسة في الصين ؟</h1>
         <p class="services__subtitle">منح دراسية مضمونة</p>
@@ -148,10 +144,10 @@
                         <h3 class="services__design-students--num">110K</h3>
                         <p class="services__design-students--text">الطلاب المغاربة</p>  
                     </div>
-                    <img src="images/checkIc.svg" alt="" class="services__design-students--icon">
+                    <img src="dist/images/checkIc.svg" alt="" class="services__design-students--icon">
                 </div>
                 <div class="services__design-current">
-                    <img src="images/heart.svg" alt="check icon" class="services__design-current--icon">
+                    <img src="dist/images/heart.svg" alt="check icon" class="services__design-current--icon">
                     <span class="services__design-current-badge">Student</span>
                     <div class="services__design-current-onestudent"></div>
                     <div class="services__design-current-heading">
@@ -175,7 +171,7 @@
             <div class="services__card services__card--1">
                 <div class="services__card-number">1</div>
                 <div class="services__card-icon">
-                    <img src="images/gloab.svg" alt="" class="services__card-icon-img">
+                    <img src="dist/images/gloab.svg" alt="" class="services__card-icon-img">
                 </div>
                 <div class="services__card-heading">
                     <h2 class="services__card-heading-title">مرحلة اختيار التخصص الجامعي</h2>
@@ -185,7 +181,7 @@
             <div class="services__card services__card--2">
                 <div class="services__card-number">2</div>
                 <div class="services__card-icon">
-                    <img src="images/applyc.svg" alt="" class="services__card-icon-img">
+                    <img src="dist/images/applyc.svg" alt="" class="services__card-icon-img">
                 </div>
                 <div class="services__card-heading">
                     <h2 class="services__card-heading-title">مرحلة تحصيل القبول الجامعي</h2>
@@ -195,7 +191,7 @@
             <div class="services__card services__card--3">
                 <div class="services__card-number">3</div>
                 <div class="services__card-icon">
-                    <img src="images/ticket.svg" alt="" class="services__card-icon-img">
+                    <img src="dist/images/ticket.svg" alt="" class="services__card-icon-img">
                 </div>
                 <div class="services__card-heading">
                     <h2 class="services__card-heading-title">مرحلة الحصول على التأشيرة</h2>
@@ -205,7 +201,7 @@
             <div class="services__card services__card--4">
                 <div class="services__card-number">4</div>
                 <div class="services__card-icon">
-                    <img src="images/changes.svg" alt="" class="services__card-icon-img">
+                    <img src="dist/images/changes.svg" alt="" class="services__card-icon-img">
                 </div>
                 <div class="services__card-heading">
                     <h2 class="services__card-heading-title">الاستقبال من المطار </h2>
@@ -215,7 +211,7 @@
         </div>
     </div>
 </section>
-<section class="testimonials" id="testimonials">
+<section class="testimonials">
     <div class="testimonials__heading"  data-aos="flip-down">
         <h1 class="testimonials__title">ماذا قال طالبنا عنا</h1>
         <p class="testimonials__subtitle">آراء طلابنا</p>
@@ -230,10 +226,10 @@
                         data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "iv_load_policy": 1 } }'>
                     </video>
                     <!-- <a href="/" class="btn btn--video btn--testimony"></a> -->
-                    <img src="images/Captureabdo.png" alt="" class="testimonials__testimony-video-image">
+                    <img src="dist/images/Captureabdo.png" alt="" class="testimonials__testimony-video-image">
                 </div>
                 <div class="testimonials__testimony-article">
-                    <img src="images/quote-sign.svg" alt="" class="testimonials__testimony-article-icon">
+                    <img src="dist/images/quote-sign.svg" alt="" class="testimonials__testimony-article-icon">
                     <p class="testimonials__testimony-article-text">
                         ناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
                         الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم
@@ -253,10 +249,10 @@
                         data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "iv_load_policy": 1 } }'>
                     </video>
                     <!-- <a href="/" class="btn btn--video btn--testimony"></a> -->
-                    <img src="images/Captureabdo.png" alt="" class="testimonials__testimony-video-image">
+                    <img src="dist/images/Captureabdo.png" alt="" class="testimonials__testimony-video-image">
                 </div>
                 <div class="testimonials__testimony-article">
-                    <img src="images/quote-sign.svg" alt="" class="testimonials__testimony-article-icon">
+                    <img src="dist/images/quote-sign.svg" alt="" class="testimonials__testimony-article-icon">
                     <p class="testimonials__testimony-article-text">
                         ناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
                         الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم
@@ -272,12 +268,12 @@
     </div>
 
 </section>
-<section class="apply" id="apply__form">
+<section class="apply">
     <div class="apply__container" data-aos="zoom-in">
-        <img src="images/Frame.png" alt="chinese tree" class="apply__img">
+        <img src="dist/images/Frame.png" alt="chinese tree" class="apply__img">
         <div class="form__container">
             <h2 class="apply__title">أدخل معلوماتك</h2>
-            <form action="#" method="POST" class="apply__form" >
+            <form action="#" method="POST" class="apply__form">
                 <input type="text" placeholder="الأسم الكامل" class="apply__form-input apply__form-input--name">
                 <input type="text" placeholder="العنوان" class="apply__form-input apply__form-input--address">
                 <input type="text" placeholder="رقم الهاتف" class="apply__form-input apply__form-input--phone">
@@ -289,10 +285,10 @@
     </div>
     
 </section>
-<div class="buy-now-sticky">
-    <a href="#buy-form" class="btn btn--tertiary button-sticky b-center" style="margin: 0;">بادر بالتسجيل</a>
-    <a href="https://wa.link/x3h5mh" class="button-whatsapp button-sticky"><img src="images/icons8-whatsapp-64.png" class="button-whatsapp__img" />Whatsapp</a>
-</div>
+<!-- <div class="buy-now-sticky">
+    <a href="#buy-form" class="btn btn--tertiary button-sticky b-center" style="margin: 0;">Acheter Maintenant</a>
+    <a href="https://wa.link/jzrazw" class="button-whatsapp button-sticky"><img src="dist/images/icons8-whatsapp-64.png" class="button-whatsapp__img" />Whatsapp</a>
+  </div> -->
 <div class="" id="popup">
 		<div class="popup__content ">
 			<div class="popup__right">
@@ -317,7 +313,7 @@
 <footer class="footer"  data-aos="zoom-in-up">
     <div class="footer__container">
         <div class="footer__about">
-            <img src="images/logo.png" alt="" class="footer__about-logo">
+            <img src="dist/images/logo.png" alt="" class="footer__about-logo">
             <p class="footer__about-description">وكالة أجيال خدمات إحدى الشركات الرائدة في مجال متابعة الدراسة بالخارج و تسجيل الطلاب من كل الجنسيات في الجامعات الصينية. </p>
             <form action="#" class="footer__about-form">
                 <input type="email" placeholder="البريد الإلكتروني" class="footer__about-newsletter">
@@ -340,7 +336,7 @@
     </div>
 
 </footer>
-<section class="subfooter" >
+<section class="subfooter"  data-aos="zoom-in-up">
     <div class="subfooter__container">
         <p class="subfooter__copyright">© Copyright 2020 ajyaledu.com / designed by Mohamed Mouguina</p>
         <div class="subfooter__container-social">
@@ -353,16 +349,16 @@
 </section>
 
 <!-- <script src="js/jquery.min.js"></script> -->
-<script src="js/typed-js/typed.min.js"></script>
+<script src="dist/js/typed-js/typed.min.js"></script>
 <script src="https://kit.fontawesome.com/ecadb3d96a.js" crossorigin="anonymous"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <!-- <script src="js/owl.carousel.min.js"></script> -->
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<script src="js/main.min.js"></script>
+<script type="text/javascript" src="dist/slick/slick.min.js"></script>
+<script src="dist/js/main.min.js"></script>
 <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
-<script src="js/Youtube.min.js"></script>
+<script src="dist/js/Youtube.min.js"></script>
 
 <!-- onscroll animation library -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -403,12 +399,6 @@
     });
 </script>
 
-<script>
-    // $('.btn--video').click(function(event){
-    //     event.preventDefault();
-    //     document.getElementById('vid1').play();
-    // });
-</script>
 </body>
 
 </html>
