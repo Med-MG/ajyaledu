@@ -6,6 +6,12 @@ $(window).on('scroll',function(){
   else{
       $('.navigation').removeClass('fixed-menu');
   }
+
+  if($(window).scrollTop() >= $("#apply__form").offset().top ){
+      $('.buy-now-sticky').addClass("hidden");
+  }else {
+    $('.buy-now-sticky').removeClass("hidden");
+  }
 });
 
 
