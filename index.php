@@ -286,7 +286,7 @@
     </div>
 
 </section>
-<div class="buy-now-sticky">
+<div class="buy-now-sticky" data-aos="zoom-in-up">
     <a href="#apply__form" class="btn btn--tertiary button-sticky b-center" style="margin: 0;">بادر بالتسجيل</a>
     <a href="https://wa.link/x3h5mh" class="button-whatsapp button-sticky"><img src="dist/images/icons8-whatsapp-64.png" class="button-whatsapp__img" />Whatsapp</a>
 </div>
