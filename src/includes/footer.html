@@ -42,13 +42,14 @@
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="js/owl.carousel.min.js"></script>
-<!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
+<!-- <script src="js/owl.carousel.min.js"></script> -->
+<script type="text/javascript" src="slick/slick.min.js"></script>
 <!-- build:js js/main.min.js -->
 <script src="js/index.js"></script>
-
 <!-- endbuild -->
-<!-- <script src="js/owl-carousel/owl.carousel.min.js"></script> -->
+<script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+<script src="js/Youtube.min.js"></script>
+
 <!-- onscroll animation library -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
@@ -76,7 +77,17 @@
     //   }
     // );
 </script>
-
+<script>
+    $('.slick-carousel').slick({
+        infinite: true,
+        slidesToShow: 1, // Shows a three slides at a time
+        slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
+        arrows: true, // Adds arrows to sides of slider
+        dots: true, // Adds the dots on the bottom
+        nextArrow: '<button class="testimonials__navbtn testimonials__navbtn--next">&#8594;</button>',
+        prevArrow: '<button class="testimonials__navbtn testimonials__navbtn--previous">&#8592;</button>'
+    });
+</script>
 
 </body>
 

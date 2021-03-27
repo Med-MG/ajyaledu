@@ -30,6 +30,25 @@
                 @include videoratio(47rem);
             }
         }
+        &-holder{
+            @include videoratio(40rem);
+            border-radius: 2.3rem;
+            overflow: hidden;
+            @include responsive(phone-1){
+                @include videoratio(47rem);
+            }
+         
+            // .vjs-poster{
+            //     filter: blur(10px);
+            // }
+        }
+        &-size {
+            @include videoratio(40rem);
+            @include responsive(phone-1){
+                @include videoratio(47rem);
+            }
+        }
+
         &-btn{
             position: absolute;
             top: 50%;

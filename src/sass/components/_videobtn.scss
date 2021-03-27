@@ -1,0 +1,18 @@
+/* Change the border of the big play button. */
+.vjs-default-skin .vjs-big-play-button {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    @include abs_centering;
+    margin: unset;
+
+}
+.vjs-poster{
+    filter: blur(10px);
+}
+
+.video-js .vjs-big-play-button{
+    @include responsive(iphone){
+        font-size: 1.6em;
+    }
+}
