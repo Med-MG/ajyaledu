@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
-   
+
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="dist/images/favicon.png"/>
@@ -19,10 +19,10 @@
     <!-- our own css -->
     <link rel="stylesheet" href="dist/css/styles.css" />
 
-    <title>Ajyaledu</title>  
+    <title>ajyaledu</title>
   </head>
   <body>
-  
+
 <section class="navigation"  data-aos="fade-down">
     <nav class="container">
         <a href="" class="navigation__logolink">
@@ -34,22 +34,22 @@
         </label>
         <ul class="navigation__menu list-unstyled">
             <li class="navigation__menu-item">
-                <a href="#buy__form" class="btn btn--nav">التسجيل</a>
+                <a href="#apply__form" class="btn btn--nav">التسجيل</a>
             </li>
             <li class="navigation__menu-item">
-                <a href="#" class="navigation__menu-item-link">الشهادات</a>
-            </li>            
+                <a href="#testimonials" class="navigation__menu-item-link">الشهادات</a>
+            </li>
             <li class="navigation__menu-item">
-                <a href="#aboutsection" class="navigation__menu-item-link">خدمات</a>
-            </li>            
+                <a href="#services" class="navigation__menu-item-link">خدمات</a>
+            </li>
             <li class="navigation__menu-item">
-                <a href="#features" class="navigation__menu-item-link">معلومات عنا</a>
-            </li>            
+                <a href="#about" class="navigation__menu-item-link">معلومات عنا</a>
+            </li>
             <li class="navigation__menu-item">
-                <a href="#testimonials" class="navigation__menu-item-link">الرئيسية</a>
+                <a href="#" class="navigation__menu-item-link">الرئيسية</a>
             </li>
         </ul>
-        
+
     </nav>
 </section>
 
@@ -65,29 +65,29 @@
                              <h3 class="header__design-stats--num"> <span>%85</span> أكتر من</h3>
                          </div>
                          <img src="dist/images/stats.svg" alt="" class="header__design-stats--image">
-                     </div> 
+                     </div>
                  </div>
             </div>
             <div class="header__design-students">
                 <div class="header__design-students-heading">
                     <h3 class="header__design-students--num">110K</h3>
-                    <p class="header__design-students--text">الطلاب المغاربة</p>  
+                    <p class="header__design-students--text">الطلاب المغاربة</p>
                 </div>
                 <img src="dist/images/eduIcon.svg" alt="" class="header__design-students--icon">
             </div>
-           
+
         </div>
         <div class="header__heading" data-aos="fade-left">
             <div class="header__heading-container">
                 <p class="header__heading-subtitle">جامعات لها ترتيب عالي عالميا</p>
                 <h1 class="header__heading-title">الوكالة الأولى المختصة بالدارسة في الصين للطلاب المغاربة</h1>
-                <p class="header__heading-description"> <b>فرصة العمر </b> لي مكاتعوضش ولي هي الدراسة في الصين 
+                <p class="header__heading-description"> <b>فرصة العمر </b> لي مكاتعوضش ولي هي الدراسة في الصين
                    وماشي غير الدراسة غادي نوفرو ليك معاها منحة كاملة لكتوفر ليك الدراسة و السكن فابور و إحتمالية تاخد <b>راتب كل شهر  </b></p>
             </div>
             <div class="header__heading-action">
-                <a href="#applyform" class="btn btn--apply">بادر بالتسجيل</a>
+                <a href="#apply__form" class="btn btn--apply">بادر بالتسجيل</a>
                 <div class="header__heading-action-video">
-                    <a href="/" class="btn btn--video"></a>
+                    <a href="#about" class="btn btn--video"></a>
                     <p class="header__heading-action-video--text">شاهد الفيديو</p>
                 </div>
             </div>
@@ -95,7 +95,7 @@
         </div>
     </div>
 </section>
-<section class="about">
+<section class="about" id="about">
     <div class="about__container">
     <div class="about__video" data-aos="fade-up-right">
         <div class="about__video-container">
@@ -118,20 +118,20 @@
         <div class="about__heading">
             <h1 class="about__heading-title">لمادا <span class="about__heading-title--variation">أجيال خدمات ؟</span></h1>
             <p class="about__heading-description">
-تعد وكالة أجيال خدمات إحدى الشركات الرائدة  في مجال متابعة الدراسة بالخارج و تسجيل الطلاب من كل الجنسيات في الجامعات الصينية بضمها مجموعة من المستشاريين في المجال من دوي خبرات عالية 
-حيث تقدم أجيال مجموعة من المنح لطلابها في أكثر من 60 جامعة صينية لجميع المراحل الدراسية (بكالوريوس ماجستير دكنوراه) 
+تعد وكالة أجيال خدمات إحدى الشركات الرائدة  في مجال متابعة الدراسة بالخارج و تسجيل الطلاب من كل الجنسيات في الجامعات الصينية بضمها مجموعة من المستشاريين في المجال من دوي خبرات عالية
+حيث تقدم أجيال مجموعة من المنح لطلابها في أكثر من 60 جامعة صينية لجميع المراحل الدراسية (بكالوريوس ماجستير دكنوراه)
             </p>
             <div class="about__heading-round about__heading-round--one"></div>
             <div class="about__heading-round about__heading-round--two"></div>
         </div>
-        <a href="/" class="btn-text btn-text--about">بادر بالتسجيل&nbsp;&nbsp;&larr;</a>
+        <a href="#apply__form" class="btn-text btn-text--about">بادر بالتسجيل&nbsp;&nbsp;&larr;</a>
     </div>
     </div>
 
 </section>
 
- 
-<section class="services">
+
+<section class="services" id="services">
     <div class="services__heading"  data-aos="fade-down">
         <h1 class="services__title">كيف سأبدأ الدراسة في الصين ؟</h1>
         <p class="services__subtitle">منح دراسية مضمونة</p>
@@ -142,7 +142,7 @@
                 <div class="services__design-students">
                     <div class="services__design-students-heading">
                         <h3 class="services__design-students--num">110K</h3>
-                        <p class="services__design-students--text">الطلاب المغاربة</p>  
+                        <p class="services__design-students--text">الطلاب المغاربة</p>
                     </div>
                     <img src="dist/images/checkIc.svg" alt="" class="services__design-students--icon">
                 </div>
@@ -164,7 +164,7 @@
                         </ul>
                         <p class="services__design-current-rating-text">4.8 (12K rated)</p>
                     </div>
-                </div> 
+                </div>
             </div>
         </div>
         <div class="services__listcards" data-aos="flip-left">
@@ -211,7 +211,7 @@
         </div>
     </div>
 </section>
-<section class="testimonials">
+<section class="testimonials" id="testimonials">
     <div class="testimonials__heading"  data-aos="flip-down">
         <h1 class="testimonials__title">ماذا قال طالبنا عنا</h1>
         <p class="testimonials__subtitle">آراء طلابنا</p>
@@ -262,37 +262,38 @@
                     <p class="testimonials__testimony-article-sub">طالب</p>
                 </div>
             </div>
-        </div> 
-        
-        
+        </div>
+
+
     </div>
 
 </section>
-<section class="apply">
+<section class="apply" id="apply__form">
     <div class="apply__container" data-aos="zoom-in">
         <img src="dist/images/Frame.png" alt="chinese tree" class="apply__img">
         <div class="form__container">
             <h2 class="apply__title">أدخل معلوماتك</h2>
-            <form action="#" method="POST" class="apply__form">
-                <input type="text" placeholder="الأسم الكامل" class="apply__form-input apply__form-input--name">
-                <input type="text" placeholder="العنوان" class="apply__form-input apply__form-input--address">
-                <input type="text" placeholder="رقم الهاتف" class="apply__form-input apply__form-input--phone">
-                <input type="text" placeholder="تأكيد رقم الهاتف" class="apply__form-input apply__form-input--confirm-phone">
+            <p class="errorconf"></p>
+            <form action="#" method="POST" class="apply__form" id="applyform" >
+                <input type="text" id="fullname" placeholder="الأسم الكامل" required class="apply__form-input apply__form-input--name">
+                <input type="text" id="address" placeholder="العنوان" class="apply__form-input apply__form-input--address">
+                <input type="tel" id="phone" placeholder="رقم الهاتف" required class="apply__form-input apply__form-input--phone">
+                <input type="tel" id="phone2" placeholder="تأكيد رقم الهاتف" required class="apply__form-input apply__form-input--confirm-phone">
                 <input type="submit" value="أرسل" class="btn btn--form apply__form-btn">
             </form>
         </div>
 
     </div>
-    
+
 </section>
-<!-- <div class="buy-now-sticky">
-    <a href="#buy-form" class="btn btn--tertiary button-sticky b-center" style="margin: 0;">Acheter Maintenant</a>
-    <a href="https://wa.link/jzrazw" class="button-whatsapp button-sticky"><img src="dist/images/icons8-whatsapp-64.png" class="button-whatsapp__img" />Whatsapp</a>
-  </div> -->
+<div class="buy-now-sticky">
+    <a href="#apply__form" class="btn btn--tertiary button-sticky b-center" style="margin: 0;">بادر بالتسجيل</a>
+    <a href="https://wa.link/x3h5mh" class="button-whatsapp button-sticky"><img src="dist/images/icons8-whatsapp-64.png" class="button-whatsapp__img" />Whatsapp</a>
+</div>
+
 <div class="" id="popup">
 		<div class="popup__content ">
 			<div class="popup__right">
-			<!-- <?php if (isset($_GET['order'])) {echo "<script> fbq('track', 'Purchase');</script>";}?> -->
 				<a href="./" class="popup__close">&times;</a>
 				<div class="success-checkmark">
 					<div class="check-icon">
@@ -302,14 +303,17 @@
 						<div class="icon-fix"></div>
 					</div>
 				</div>
-				<h3 class="heading-tertiary">Merci pour votre confiance</h3>
+				<h3 class="heading-tertiary">شكرا جزيلاً على ثقتكم</h3>
 				<p class="popup__text">
-					La demande a été enregistrée! Notre équipe vous contactera pour confirmer votre demande dans les plus brefs délais.<br>
+                لقد تم تسجيل الطلب !  سيتصل بكم فريق الدعم الفني
+            في أقرب وقت ممكن <br>
 				</p>
-				<a class="btn btn--popup button-popup" id="PurchaseConfirmed" href="./">Confirmer la commande</a>
+				<a class="btn btn--popup button-popup" id="PurchaseConfirmed" href="./">الرئيسية</a>
 			</div>
 		</div>
-	</div>
+</div>
+
+
 <footer class="footer"  data-aos="zoom-in-up">
     <div class="footer__container">
         <div class="footer__about">
@@ -336,9 +340,9 @@
     </div>
 
 </footer>
-<section class="subfooter"  data-aos="zoom-in-up">
+<section class="subfooter" >
     <div class="subfooter__container">
-        <p class="subfooter__copyright">© Copyright 2020 ajyaledu.com / designed by Mohamed Mouguina</p>
+        <p class="subfooter__copyright">© Copyright 2020 ajyaledu.com / designed by <a class="credit" href="https://www.linkedin.com/in/mohamed-mouiguina-0a3193124/">Mohamed Mouguina</a></p>
         <div class="subfooter__container-social">
             <p class="subfooter__container-social-text">Follow us :</p>
             <i class="fab fa-facebook-f"></i>
@@ -399,6 +403,12 @@
     });
 </script>
 
+<script>
+    // $('.btn--video').click(function(event){
+    //     event.preventDefault();
+    //     document.getElementById('vid1').play();
+    // });
+</script>
 </body>
 
 </html>

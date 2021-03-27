@@ -247,7 +247,7 @@
         <div class="slider-wrapper">
             <div class="testimonials__testimony">
                 <div class="testimonials__testimony-video">
-                    <video id="vid2"
+                    <video id="vid3"
                         class="video-js vjs-default-skin testimonials__testimony-video-size vjs-big-play-centered"
                         controls
                         data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "iv_load_policy": 1 } }'>
@@ -277,11 +277,12 @@
         <img src="images/Frame.png" alt="chinese tree" class="apply__img">
         <div class="form__container">
             <h2 class="apply__title">أدخل معلوماتك</h2>
-            <form action="#" method="POST" class="apply__form" >
-                <input type="text" placeholder="الأسم الكامل" class="apply__form-input apply__form-input--name">
-                <input type="text" placeholder="العنوان" class="apply__form-input apply__form-input--address">
-                <input type="text" placeholder="رقم الهاتف" class="apply__form-input apply__form-input--phone">
-                <input type="text" placeholder="تأكيد رقم الهاتف" class="apply__form-input apply__form-input--confirm-phone">
+            <p class="errorconf"></p>
+            <form action="#" method="POST" class="apply__form" id="applyform" >
+                <input type="text" id="fullname" placeholder="الأسم الكامل" required class="apply__form-input apply__form-input--name">
+                <input type="text" id="address" placeholder="العنوان" class="apply__form-input apply__form-input--address">
+                <input type="tel" id="phone" placeholder="رقم الهاتف" required class="apply__form-input apply__form-input--phone">
+                <input type="tel" id="phone2" placeholder="تأكيد رقم الهاتف" required class="apply__form-input apply__form-input--confirm-phone">
                 <input type="submit" value="أرسل" class="btn btn--form apply__form-btn">
             </form>
         </div>
@@ -296,7 +297,6 @@
 <div class="" id="popup">
 		<div class="popup__content ">
 			<div class="popup__right">
-			<!-- <?php if (isset($_GET['order'])) {echo "<script> fbq('track', 'Purchase');</script>";}?> -->
 				<a href="./" class="popup__close">&times;</a>
 				<div class="success-checkmark">
 					<div class="check-icon">
@@ -313,7 +313,7 @@
 				<a class="btn btn--popup button-popup" id="PurchaseConfirmed" href="./">Confirmer la commande</a>
 			</div>
 		</div>
-	</div>
+</div>
 <footer class="footer"  data-aos="zoom-in-up">
     <div class="footer__container">
         <div class="footer__about">

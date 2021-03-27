@@ -10,7 +10,7 @@ if(isset($_POST['phone'])){
     $client->setAuthConfig(__DIR__ . '/credentials.json');
     $client->setAccessType('offline');
     $service = new Google_Service_Sheets($client);
-    $spreadsheetId = "1mZUvoG57fQd3R7-jKJv-DrVPDx2LFdM4tuqOt7K_x7Y";
+    $spreadsheetId = "1k613e2xy5ikqKi-iUHRlGxNBkeVHqdLhYMg1_zjy2Ow";
     //making a connection to the api
 
     $phone = trim($_POST['phone']);
@@ -20,7 +20,7 @@ if(isset($_POST['phone'])){
 
 
     //getting the last inserted row id
-    $range = "Stroller!A1:D";
+    $range = "ajyal!A1:D";
     $response = $service->spreadsheets_values->get($spreadsheetId,$range);
     $values = $response->getValues();
     if (empty($values)) {
@@ -33,7 +33,7 @@ if(isset($_POST['phone'])){
 
 
 
-    $range = "Stroller!A1:D";
+    $range = "ajyal!A1:D";
     $values = [
         [$inc, $fullName,  $phone, $address],
     ];
@@ -57,7 +57,7 @@ if(isset($_POST['phone'])){
         $params,
         $insert
     );
-
+    
     echo json_encode(['code'=>200, 'msg'=>"La demande a été enregistrée"]);
 }
 
@@ -73,7 +73,7 @@ function showpixles(){
     $spreadsheetId = "1R_tbrlbR-k7haT_HW9C_Yy3J75QnKCURUxuU113AtEM";
 
     //getting the last inserted row id
-    $rangepix = "stroller!T2:U";
+    $rangepix = "ajyal!T2:U";
     $response = $service->spreadsheets_values->get($spreadsheetId,$rangepix);
     $values = $response->getValues();
     if (empty($values)) {

@@ -66,13 +66,19 @@
             @include responsive(iphone){
                 padding: 1rem;
             }
-            &--name{}
-            &--address{}
-            &--phone{}
-            &--confirm-phone{}
+            // &--name{}
+            // &--address{}
+            // &--phone{}
+            // &--confirm-phone{}
         }
         &-btn{
             margin-top: 2rem;
         }
     }
+}
+
+.errorconf{
+    color: #e84118;
+    font-size: 1.6rem;
+
 }
