@@ -45,6 +45,17 @@
             background-color: $primary;
         }
     }
+    &--services {
+        background-color: #FDBD36;
+        color: $color-white;
+        font-size: 1.9rem;
+       padding: 1rem 4rem;
+       box-shadow: $btn-shadow;
+       margin-right: 3rem;
+        &::after {
+            background-color: #FDBD36;
+        }
+    }
     &--video {
         background-color: $color-white;
         font-size: 1.9rem;

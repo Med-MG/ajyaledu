@@ -37,7 +37,7 @@
                 <a href="#apply__form" class="btn btn--nav">التسجيل</a>
             </li>
             <li class="navigation__menu-item">
-                <a href="#testimonials" class="navigation__menu-item-link">الشهادات</a>
+                <a href="#testimonials" class="navigation__menu-item-link">شهادات</a>
             </li>
             <li class="navigation__menu-item">
                 <a href="#services" class="navigation__menu-item-link">خدمات</a>
@@ -79,17 +79,17 @@
         </div>
         <div class="header__heading" data-aos="fade-left">
             <div class="header__heading-container">
-                <p class="header__heading-subtitle">جامعات لها ترتيب عالي عالميا</p>
+                <p class="header__heading-subtitle"></p>
                 <h1 class="header__heading-title">الوكالة الأولى المختصة بالدارسة في الصين للطلاب المغاربة</h1>
-                <p class="header__heading-description"> <b>فرصة العمر </b> لي مكاتعوضش ولي هي الدراسة في الصين
-                   وماشي غير الدراسة غادي نوفرو ليك معاها منحة كاملة لكتوفر ليك الدراسة و السكن فابور و إحتمالية تاخد <b>راتب كل شهر  </b></p>
+                <p class="header__heading-description"></p>
             </div>
             <div class="header__heading-action">
-                <a href="#apply__form" class="btn btn--apply">بادر بالتسجيل</a>
-                <div class="header__heading-action-video">
+                <a href="#apply__form" class="btn btn--apply">سجل الآن</a>
+                <a href="#services" class="btn btn--services">خدماتنا</a>
+                <!-- <div class="header__heading-action-video">
                     <a href="#about" class="btn btn--video"></a>
                     <p class="header__heading-action-video--text">شاهد الفيديو</p>
-                </div>
+                </div> -->
             </div>
 
         </div>
@@ -104,7 +104,7 @@
                 id="vid1"
                 class="video-js vjs-default-skin about__video-size vjs-big-play-centered"
                 controls
-                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "iv_load_policy": 1 } }'
+                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=cPDB9diFPsQ"}], "youtube": { "iv_load_policy": 1 } }'
                 >
             </video>
             </div>
@@ -116,7 +116,7 @@
     </div>
     <div class="about__ajyal" data-aos="fade-up-left">
         <div class="about__heading">
-            <h1 class="about__heading-title">لمادا <span class="about__heading-title--variation">أجيال خدمات ؟</span></h1>
+            <h1 class="about__heading-title">لماذا <span class="about__heading-title--variation">أجيال خدمات ؟</span></h1>
             <p class="about__heading-description">
 تعد وكالة أجيال خدمات إحدى الشركات الرائدة  في مجال متابعة الدراسة بالخارج و تسجيل الطلاب من كل الجنسيات في الجامعات الصينية بضمها مجموعة من المستشاريين في المجال من دوي خبرات عالية
 حيث تقدم أجيال مجموعة من المنح لطلابها في أكثر من 60 جامعة صينية لجميع المراحل الدراسية (بكالوريوس ماجستير دكنوراه)
@@ -213,17 +213,17 @@
 </section>
 <section class="testimonials" id="testimonials">
     <div class="testimonials__heading"  data-aos="flip-down">
-        <h1 class="testimonials__title">ماذا قال طالبنا عنا</h1>
-        <p class="testimonials__subtitle">آراء طلابنا</p>
+        <h1 class="testimonials__title">ماذا قال طالبنا عنا؟</h1>
+        <p class="testimonials__subtitle"></p>
     </div>
     <div class="testimonials__testimonylist slick-carousel" data-aos="flip-up">
         <div class="slider-wrapper">
             <div class="testimonials__testimony">
                 <div class="testimonials__testimony-video">
-                    <video id="vid2"
+                    <video id="vid4"
                         class="video-js vjs-default-skin testimonials__testimony-video-size vjs-big-play-centered"
                         controls
-                        data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "iv_load_policy": 1 } }'>
+                        data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=sLd41-byCjk"}], "youtube": { "iv_load_policy": 1 } }'>
                     </video>
                     <!-- <a href="/" class="btn btn--video btn--testimony"></a> -->
                     <img src="dist/images/Captureabdo.png" alt="" class="testimonials__testimony-video-image">
@@ -231,12 +231,31 @@
                 <div class="testimonials__testimony-article">
                     <img src="dist/images/quote-sign.svg" alt="" class="testimonials__testimony-article-icon">
                     <p class="testimonials__testimony-article-text">
-                        ناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
-                        الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم
-                        لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام
+                    السلام عليكم كنشكر بزاف وكالة أجيال على الخدمة الزوينة ديالهم . لي مكيعرفش هاد الوكالة فهي شركة كتوفر ليك مجموعة من المنح و كتوجهك للشعب المناسبة ليك و كتعاونكم في إعداد الملف بالمجان
                     </p>
-                    <h4 class="testimonials__testimony-article-name">عبد الرزاق ندير</h4>
-                    <p class="testimonials__testimony-article-sub">طالب</p>
+                    <h4 class="testimonials__testimony-article-name">سلمى المكاوي</h4>
+                    <p class="testimonials__testimony-article-sub">طالبة في سلك الصيدلة</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider-wrapper">
+            <div class="testimonials__testimony">
+                <div class="testimonials__testimony-video">
+                    <video id="vid3"
+                        class="video-js vjs-default-skin testimonials__testimony-video-size vjs-big-play-centered"
+                        controls
+                        data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://youtu.be/D7Qw3UY_9HA"}], "youtube": { "iv_load_policy": 1 } }'>
+                    </video>
+                    <!-- <a href="/" class="btn btn--video btn--testimony"></a> -->
+                    <img src="dist/images/Captureabdo.png" alt="" class="testimonials__testimony-video-image">
+                </div>
+                <div class="testimonials__testimony-article">
+                    <img src="dist/images/quote-sign.svg" alt="" class="testimonials__testimony-article-icon">
+                    <p class="testimonials__testimony-article-text">
+                    السلام عليكم معاكم عبد الرزاق تعاملت مع شركة اجيال لي وفرات ليا مجموعة من الخدمات الرائعة و لي فتحات ليا الطريق للدراسة في الصين مع منحة كاملة و كنشكر فريق العمل لحسن التعامل و الخدمة
+                    </p>
+                    <h4 class="testimonials__testimony-article-name">عبد الرزاق نضير</h4>
+                    <p class="testimonials__testimony-article-sub">طالب ماستر</p>
                 </div>
             </div>
         </div>
@@ -246,7 +265,7 @@
                     <video id="vid2"
                         class="video-js vjs-default-skin testimonials__testimony-video-size vjs-big-play-centered"
                         controls
-                        data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "iv_load_policy": 1 } }'>
+                        data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "hhttps://www.youtube.com/watch?v=betUnNxq2UI"}], "youtube": { "iv_load_policy": 1 } }'>
                     </video>
                     <!-- <a href="/" class="btn btn--video btn--testimony"></a> -->
                     <img src="dist/images/Captureabdo.png" alt="" class="testimonials__testimony-video-image">
@@ -254,16 +273,15 @@
                 <div class="testimonials__testimony-article">
                     <img src="dist/images/quote-sign.svg" alt="" class="testimonials__testimony-article-icon">
                     <p class="testimonials__testimony-article-text">
-                        ناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
-                        الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم
-                        لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام
+                    السلام عليكم معكم ياسر الدهبي من مدينة تطوان , دفعت مع أجيال خدمات ديبلوما (التكوين المهني) hotel management 
+تعامل ديالكم كان في المستوى حاليا أنا كانقرا اللغة الصينية أولاين القرايا في المستوى و الثمن جد مناسب
                     </p>
-                    <h4 class="testimonials__testimony-article-name">عبد الرزاق ندير</h4>
-                    <p class="testimonials__testimony-article-sub">طالب</p>
+                    <h4 class="testimonials__testimony-article-name">ياسر الدهبي</h4>
+                    <p class="testimonials__testimony-article-sub">طالب في التكوين المهني
+</p>
                 </div>
             </div>
         </div>
-
 
     </div>
 
@@ -318,7 +336,7 @@
     <div class="footer__container">
         <div class="footer__about">
             <img src="dist/images/logo.png" alt="" class="footer__about-logo">
-            <p class="footer__about-description">وكالة أجيال خدمات إحدى الشركات الرائدة في مجال متابعة الدراسة بالخارج و تسجيل الطلاب من كل الجنسيات في الجامعات الصينية. </p>
+            <p class="footer__about-description">العنوان : شارع المسعود الوفقاوي الطابق الثالث مكتب رقم 9 حي السلام أكادير</p>
             <form action="#" class="footer__about-form">
                 <input type="email" placeholder="البريد الإلكتروني" class="footer__about-newsletter">
                 <a href="#" type="submit" class="footer__about-submit">أرسل</a>
